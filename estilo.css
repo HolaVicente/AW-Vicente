@@ -1,0 +1,139 @@
+body{
+}
+
+.menuA {
+  overflow: auto;
+  background-color: #000000;
+  width: 100%;
+  margin: auto;
+  font-family: raleway;
+
+}
+
+.menuA a {
+  float: left;
+  display: block;
+  color: black;
+  font-family: Pompiere;
+  font-size: 22px;
+  text-align: center;
+  padding: 14px px;
+  text-decoration: none;
+  color: white;
+  width: 25%;
+  font-family: raleway;
+}
+
+.menuA a:hover
+{
+  background-color: rgba(6, 149, 149, 0.934);
+
+}
+
+.logo {
+  position: relative;
+  width: 100%;
+}
+
+.img1 {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  height: 60%;
+  display: block;
+}
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  font-family: raleway;
+}
+
+.menu2 {
+  overflow: auto;
+  background-color: yellowgreen;
+  width: 100%;
+  margin: auto;
+  box-shadow: 2px 2px 1.5px black;
+}
+
+.menu2 a {
+  float: left;
+  display: contents;
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+}
+
+.columnas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 2%;
+}
+
+.columnas p {
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.columnas > div {
+  margin-bottom: 200px;
+}
+
+
+
+.img333{margin-top: 500px;}
+
+form {
+    max-width: 70%;
+    margin: 20px auto;
+    background-color: #a5a3a3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display:block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="apellido"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 80%;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    text-align: center;
+    position:relative;
+    bottom: 0px;
+    background-color: rgb(81, 80, 80);
+    border-top: 1px solid black;
+    padding: 10px;
+  }
+  
+  footer p {
+    font-size: 23px;
+  }
+  
+
